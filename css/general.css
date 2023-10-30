@@ -1,0 +1,41 @@
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+body {
+	scroll-behavior: smooth;
+}
+
+main {
+	padding-top: 80px;
+}
+
+@media screen and (max-width: 1000px) {
+	.container {
+		width: 100%;
+	}
+}
+
+/* Estilos para o container da barra de pesquisa */
+.search-container {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 2px solid #178252;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Estilos para a caixa de pesquisa */
+#searchBar {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+
